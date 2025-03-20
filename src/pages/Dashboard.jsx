@@ -56,13 +56,15 @@ function Dashboard() {
             </div>
 
             {/* Cards */}
-            <div className="grid grid-cols-12 gap-6">
+            <div className="">
 
-              {/* Line chart (Acme Plus) */}
-              <DashboardCard01 />
+              <div className='flex items-center justify-between space-x-10'>
+                {/* Line chart (Acme Plus) */}
+                <DashboardCard01 />
 
-              {/* Line chart (Acme Advanced) */}
-              <DashboardCard02 />
+                {/* Line chart (Acme Advanced) */}
+                <DashboardCard02 />
+              </div>
 
               {/* Line chart (Acme Professional) */}
               <DashboardCard03 />
